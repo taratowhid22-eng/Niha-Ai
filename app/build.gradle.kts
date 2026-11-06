@@ -1,4 +1,3 @@
-
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
@@ -32,7 +31,6 @@ android {
 }
 
 dependencies {
-
     implementation(platform("androidx.compose:compose-bom:2024.12.01"))
 
     implementation("androidx.core:core-ktx:1.15.0")
@@ -44,6 +42,15 @@ dependencies {
     implementation("androidx.compose.material3:material3")
 
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.7")
+
+    // Network connection
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
+
+    // JSON processing
+    implementation("com.google.code.gson:gson:2.11.0")
+
+    // Kotlin Coroutines
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0")
 
     debugImplementation("androidx.compose.ui:ui-tooling")
 }
