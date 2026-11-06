@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "469197712379",
+    "project_id": "neha-ai",
+    "storage_bucket": "neha-ai.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469197712379:android:3517418d5b57607494f95e",
+        "android_client_info": {
+          "package_name": "com.niha.ai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgv1aBA3WGLgVTACWtbUu2GP7uKnUOzgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
